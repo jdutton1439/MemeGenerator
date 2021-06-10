@@ -1,0 +1,166 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+
+    position: relative;
+
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+
+    right: 1%;
+    left: 1%;
+
+    width: 97%;
+
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+
+    position: absolute;
+
+    border: 2px solid #CCCCCC;
+    box-sizing: border-box;
+
+    top: 100%;
+
+    width: 100%;
+
+    margin-top: 2%;
+}
+
+#memeSubmit {
+    position: relative;
+
+    width: fit-content;
+
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    color: #CCCCCC;
+    text-shadow: 0 0 8px #0E0E10, 0 0 16px #CCCCCC;
+
+    transition: 150ms;
+}
+
+#memeSubmit:hover {
+    cursor: pointer;
+    text-shadow: none;
+    color: #CCCCCC;
+}
+
+#memeSubmit:active {
+    color: #0E0E10;
+}
+
+#header {
+    position: relative;
+
+    box-sizing: border-box;
+
+    border: 2px solid #CCCCCC;
+
+    height: fit-content;
+    width: 100%;
+}
+
+#header label {
+    justify-items: right;
+    text-align: right;
+    align-items: right;
+
+    width: 10%;
+    padding-right: 2%;
+
+    color: #CCCCCC;
+    text-shadow: 0 0 8px #CCCCCC, 0 0 16px #0E0E10;
+
+    margin-bottom: 1%;
+}
+
+#header input {
+    justify-items: left;
+    text-align: left;
+    align-items: left;
+
+    width: 83%;
+
+    margin-bottom: 1%;
+}
+
+#header h1 {
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+
+    color: #CCCCCC;
+    text-shadow: 0 0 8px #CCCCCC, 0 0 16px #0E0E10;
+}
+
+#header div {
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+#header form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.memeImgTemplate {
+    position: relative;
+
+    width: 480px;
+    height: 480px;
+
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+}
+
+.memeTemplate {
+    position: absolute;
+    
+    font-size: 32px;
+    font-style: bold;
+    font-weight: bolder;
+
+    color: #CCCCCC;
+    text-shadow: 0 0 8px #0E0E10, 0 0 16px #CCCCCC;
+
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+
+    z-index: 2;
+
+    left: 50%;
+
+    transform: translate(-50%, 0);
+
+    max-width: fit-content;
+
+    margin: 2%;
+}
+
+#bottom {
+    bottom: 2%;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+
+    background-color: #0E0E10;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
